@@ -8,14 +8,14 @@ import random
 
 today = datetime.now()
 start_date = os.environ['START_DATE']
-city = os.environ['CITY']
-birthday = os.environ['BIRTHDAY']
+city = os.environ['长沙']
+birthday = os.environ['11-02']
 
-app_id = os.environ["APP_ID"]
-app_secret = os.environ["APP_SECRET"]
+app_id = os.environ["wxb13c2eb573f7f98d"]
+app_secret = os.environ["cae15464201d673c77369d7999617112"]
 
-user_id = os.environ["USER_ID"]
-template_id = os.environ["TEMPLATE_ID"]
+user_id = os.environ["ok-Rc5pEuBwZK1jePAqv2ZqyOups"]
+template_id = os.environ["Os8ZtJT2yBqrY9f967x93_DymuuGvojt0FALoF7zaiM"]
 
 
 def get_weather():
